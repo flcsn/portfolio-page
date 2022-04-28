@@ -1,11 +1,19 @@
 import React from 'react'
 
-const ComponentName = () => {
+import Intro from './components/Intro'
+import About from './components/About'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+
+const App = () => {
   return (
-    <div className='text-3xl'>
-      Hello!
+    <div className='flex flex-col'>
+      <Intro />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   )
 }
 
-export default ComponentName
+export default App

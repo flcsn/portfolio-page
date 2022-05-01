@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <section className='flex flex-col bg-blue-900 min-w-screen min-h-screen'>
-      <div className='h-full p-3'>
+      <div className='flex-grow h-full p-3'>
         <h2 className='text-xl font-semibold tracking-tight text-slate-200'>About</h2>
         <p className='text-sm text-slate-200'>
           I take pride in creating things that other people
@@ -14,7 +14,7 @@ const About = () => {
           primis in faucibus.
         </p>
       </div>
-      <div className='h-full p-3'>
+      <div className='flex-grow h-full p-3'>
         <h2 className='text-xl font-semibold tracking-tight text-slate-200'>A Brief History</h2>
         <p className='text-sm text-slate-200'>
           I started my journey into programming with

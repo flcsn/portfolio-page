@@ -3,7 +3,7 @@ import React from 'react'
 const ProjectItem = ({ title, description, languages, demoLink, codeLink }) => {
   console.log(languages)
   return (
-    <div name='project-box' className='flex-shrink-0 flex flex-col gap-3 p-3 h-96 w-60 bg-white border border-slate-900 border-double rounded transition-all hover:scale-105'>
+    <div name='project-box' className='flex-shrink-0 flex flex-col gap-3 p-3 h-96 w-60 bg-white shadow rounded transition-all hover:scale-105'>
       <div name='project-image' className='w-full h-32 bg-gray-400 border rounded'>
 
       </div>

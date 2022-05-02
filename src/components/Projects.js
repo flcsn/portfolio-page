@@ -5,10 +5,10 @@ const Projects = () => {
   return (
     <section name='project-main-container' className='flex flex-col gap-5 p-3 bg-slate-200 min-w-screen min-h-screen justify-center'>
       <div name='project-text-container' className='flex flex-col gap-3 max-w-lg mx-auto text-center'>
-        <h1 className='text-3xl text-blue-900 tracking-tight'>
+        <h1 className='text-3xl text-blue-900 tracking-tight sm:text-5xl md:text-7xl'>
           Projects
         </h1>
-        <p className='text-blue-900 text-sm'>
+        <p className='text-blue-900 text-sm sm:text-lg md:text-xl'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
           accumsannulla a diam efficitur cursus. Aliquam sit amet libero eu.
         </p>

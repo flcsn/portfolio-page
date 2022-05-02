@@ -22,10 +22,10 @@ const ProjectItem = ({ title, description, languages, demoLink, codeLink }) => {
         { languages.mongo && <img className='w-9 h-9' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg' /> }
       </div>
       <div name='links' className='flex flex-col text-center text-slate-200 gap-1'>
-        <div className='w-full p-1 bg-blue-600 font-semibold hover:bg-blue-700'>
+        <div className='w-full p-1 bg-blue-600 font-semibold hover:bg-blue-700 hover:font-bold'>
           <a className='inline-block h-full w-full' href={demoLink} target='_blank' rel='noopener noreferrer'>Live Demo</a>
         </div>
-        <div className='w-full p-1 bg-slate-800 font-light tracking-wide text-slate-200 hover:bg-slate-900'>
+        <div className='w-full p-1 bg-slate-800 font-light tracking-wide text-slate-200 hover:bg-slate-900 hover:font-normal'>
           <a className='inline-block  h-full w-full' href={codeLink} target='_blank' rel='noopener noreferrer'>Link to Code</a>
         </div>
       </div>

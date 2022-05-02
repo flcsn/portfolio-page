@@ -3,7 +3,7 @@ import React from 'react'
 const ProjectItem = ({ title, description, languages, demoLink, codeLink }) => {
   console.log(languages)
   return (
-    <div name='project-box' className='flex-shrink-0 flex flex-col gap-3 p-3 h-96 w-60 bg-violet-100 border border-black rounded'>
+    <div name='project-box' className='flex-shrink-0 flex flex-col gap-3 p-3 h-96 w-60 bg-white border border-slate-900 border-double rounded transition-all hover:scale-105'>
       <div name='project-image' className='w-full h-32 bg-gray-400 border rounded'>
 
       </div>
@@ -23,10 +23,10 @@ const ProjectItem = ({ title, description, languages, demoLink, codeLink }) => {
       </div>
       <div name='links' className='flex flex-col text-center text-slate-200 gap-1'>
         <div className='w-full p-1 bg-blue-600 font-semibold hover:bg-blue-700'>
-          <a href={demoLink} target='_blank' rel='noopener noreferrer'>Live Demo</a>
+          <a className='inline-block h-full w-full' href={demoLink} target='_blank' rel='noopener noreferrer'>Live Demo</a>
         </div>
         <div className='w-full p-1 bg-slate-800 font-light tracking-wide text-slate-200 hover:bg-slate-900'>
-          <a href={codeLink} target='_blank' rel='noopener noreferrer'>Link to Code</a>
+          <a className='inline-block  h-full w-full' href={codeLink} target='_blank' rel='noopener noreferrer'>Link to Code</a>
         </div>
       </div>
     </div>

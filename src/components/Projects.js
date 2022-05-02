@@ -13,7 +13,7 @@ const Projects = () => {
           accumsannulla a diam efficitur cursus. Aliquam sit amet libero eu.
         </p>
       </div>
-      <div name='projects-container' className='flex gap-10 max-w-full p-3 overflow-x-scroll'>
+      <div name='projects-container' className='flex gap-10 max-w-full mx-auto p-3 overflow-x-auto'>
         <ProjectItem
           title='The Grand Exchange'
           description='Buy and sell things with others in this full stack application.'

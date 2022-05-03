@@ -1,12 +1,9 @@
 import React from 'react'
 
-const ProjectItem = ({ title, description, languages, demoLink, codeLink }) => {
-  console.log(languages)
+const ProjectItem = ({ title, image, description, languages, demoLink, codeLink }) => {
   return (
     <div name='project-box' className='flex-shrink-0 flex flex-col gap-3 p-3 h-96 w-60 bg-white shadow rounded transition-all hover:scale-105'>
-      <div name='project-image' className='w-full h-32 bg-gray-400 border rounded'>
-
-      </div>
+      <img name='project-image' className='w-full h-32 rounded shadow' src={image}  />
       <div name='project-text' className='flex flex-col gap-1 flex-grow text-center'>
         <h3 className='text-lg font-semibold tracking-tight'>
           {title}

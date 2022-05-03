@@ -1,4 +1,5 @@
 import React from 'react'
+import FrankieLacson from '../assets/FrankieLacson.pdf'
 
 const About = () => {
   return (
@@ -10,12 +11,12 @@ const About = () => {
           As a developer, I take deep pride in building applications that can both address practical problems for clients,
           and lead to satisfying experiences for end users.
           If you would like to know more about my credentials, my resume can be downloaded
-          <a className='font-semibold' href='resume.pdf' download='FrankieLacson.pdf' target='_blank' rel='noopener noreferrer'> here</a> (PDF).
+          <a className='font-semibold' href={FrankieLacson} download='FrankieLacson.pdf' target='_blank' rel='noopener noreferrer'> here</a> (PDF).
         </p>
         <br/>
         <p className='text-sm text-slate-200 tracking-wide font-light sm:text-lg md:text-xl md:leading-normal'>
           When I am not working on a project, I can be found bashing my head against the wall in Elden Ring,
-          or trying out a new Fire Emblem game while I wait for the next major FFXIV update.
+          or trying out a new Fire Emblem game while waiting for the next major FFXIV update.
         </p>
       </div>
       <div className='flex-grow max-w-screen-lg h-full m-auto'>

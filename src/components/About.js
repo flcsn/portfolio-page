@@ -10,8 +10,8 @@ const About = () => {
           I am a former HR professional who recently decided to transition to a career in web development.
           As a developer, I take deep pride in building applications that can both address practical problems for clients,
           and lead to satisfying experiences for end users.
-          If you would like to know more about my credentials, my resume can be downloaded
-          <a className='font-semibold' href={FrankieLacson} download='FrankieLacson.pdf' target='_blank' rel='noopener noreferrer'> here</a> (PDF).
+          If you would like to know more about my credentials, my resume can be viewed
+          <a className='font-semibold' href={FrankieLacson} target='_blank' rel='noopener noreferrer'> here</a> (PDF).
         </p>
         <br/>
         <p className='text-sm text-slate-200 tracking-wide font-light sm:text-lg md:text-xl md:leading-normal'>

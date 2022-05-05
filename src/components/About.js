@@ -28,9 +28,9 @@ const About = () => {
           <a className='font-semibold' href='https://java-programming.mooc.fi/' target='_blank' rel='noopener noreferrer'> Java Programming course</a>.
           Afterwards, I decided to learn about basic data structures and algorithms with Princeton University&apos;s
           <a className='font-semibold' href='https://www.coursera.org/learn/algorithms-part1' target='_blank' rel='noopener noreferrer'> Algorithms</a> course.
-          Finally, I took up University of Helsinki&apos;s
-          <a className='font-semibold' href='https://fullstackopen.com/en/' target='_blank' rel='noopener noreferrer'> course on modern web development </a>
-          where I learned my current skills in JavaScript technologies.
+          Towards the end of 2021, I took up University of Helsinki&apos;s
+          <a className='font-semibold' href='https://fullstackopen.com/en/' target='_blank' rel='noopener noreferrer'> course on modern web development</a>,
+           where I learned my current skills in JavaScript technologies.
         </p>
       </div>
     </section>

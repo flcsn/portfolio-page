@@ -10,6 +10,8 @@ const Contact = () => {
       message: event.target.message.value
     }
     console.log('submitted the following information:', info)
+    // play around with Netlify Forms to complete this functionality
+    // https://www.youtube.com/watch?v=6ElQ689HRcY
   }
 
   return (

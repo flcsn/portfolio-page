@@ -13,6 +13,7 @@ const Contact = () => {
           </p>
         </div>
         <form className='flex flex-col w-full gap-3 justify-between' name='messages' method='POST' netlify>
+          <input type="hidden" name="form-name" value="contact" /> { /* To assist Netlify bots */ }
           <div className='flex flex-col gap-1'>
             <label className='text-sm sm:text-lg md:text-xl'>Your Name</label>
             <input

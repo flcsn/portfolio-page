@@ -13,15 +13,15 @@ const Projects = () => {
           Projects
         </h1>
         <p className='text-blue-900 text-sm sm:text-lg md:text-xl'>
-          Displayed in reverse-order below are my most recent solo projects:
-          A simple to-do list, a frontend application utilizing a 3rd-party API, and a full stack application.
+          Displayed below are my most recent solo projects in reverse-order:
+          A simple to-do list, a frontend application utilizing a 3rd-party API, and a fully functional e-commerce website.
         </p>
       </div>
       <div name='projects-container' className='flex gap-10 max-w-full mx-auto p-3 overflow-x-auto'>
         <ProjectItem
           title='The Grand Exchange'
           image={TheGrandExchangeImg}
-          description='Buy and sell products with others in this full stack application.'
+          description='Buy and sell products with others in this e-commerce website.'
           languages={{ node: true, react: true, express: true, mongo: true }}
           demoLink='https://the-grand-exchange.netlify.app/'
           codeLink='https://www.github.com/flcsn/the-grand-exchange'
@@ -29,7 +29,7 @@ const Projects = () => {
         <ProjectItem
           title='What&apos;s for Dinner?'
           image={WhatsForDinnerImg}
-          description='Look for meal suggestions based on user-inputted ingredients and tags. Powered by the Tasty.co API.'
+          description='Look for meal suggestions based on selected ingredients and tags. Powered by the Tasty.co API.'
           languages={{ node: true, react: true }}
           demoLink='https://what-s-for-dinner.netlify.app/'
           codeLink='https://github.com/flcsn/whats-for-dinner'

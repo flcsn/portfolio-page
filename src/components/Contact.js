@@ -20,6 +20,7 @@ const Contact = () => {
               className='p-2 bg-gray-300 text-blue-900 text-sm sm:text-lg md:text-xl'
               name='name'
               type='text'
+              required
             />
           </div>
           <div className='flex flex-col gap-1'>
@@ -28,6 +29,7 @@ const Contact = () => {
               className='p-2 bg-gray-300 text-blue-900 text-sm sm:text-lg md:text-xl'
               name='email'
               type='email'
+              required
             />
           </div>
           <div className='flex flex-col gap-1'>
@@ -36,6 +38,7 @@ const Contact = () => {
               className='p-2 bg-gray-300  text-blue-900 text-sm sm:text-lg md:text-xl'
               name='subject'
               type='text'
+              required
             />
           </div>
           <div className='flex flex-col gap-1'>
@@ -44,6 +47,7 @@ const Contact = () => {
               className='h-40 p-2 bg-gray-300 text-blue-900 text-sm sm:text-lg md:text-xl'
               name='message'
               defaultValue=''
+              required
             />
           </div>
           <button

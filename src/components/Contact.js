@@ -1,19 +1,6 @@
 import React from 'react'
 
 const Contact = () => {
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    const info = {
-      name: event.target.name.value,
-      email: event.target.email.value,
-      subject: event.target.subject.value,
-      message: event.target.message.value
-    }
-    console.log('submitted the following information:', info)
-    // play around with Netlify Forms to complete this functionality
-    // https://www.youtube.com/watch?v=6ElQ689HRcY
-  }
-
   return (
     <section className='flex px-3 bg-slate-900 text-slate-100 min-w-screen min-h-screen'>
       <div className='flex flex-col gap-5 w-72 m-auto p-3 sm:w-80 md:w-1/2'>
@@ -25,7 +12,7 @@ const Contact = () => {
             Questions? Suggestions? Leave a message and I will try to get back to you as soon as possible!
           </p>
         </div>
-        <form className='flex flex-col w-full gap-3 justify-between' onSubmit={handleSubmit} data-netlify='true'>
+        <form className='flex flex-col w-full gap-3 justify-between'netlify>
           <div className='flex flex-col gap-1'>
             <label className='text-sm sm:text-lg md:text-xl'>Your Name</label>
             <input

@@ -25,7 +25,7 @@ const Contact = () => {
             Questions? Suggestions? Leave a message and I will try to get back to you as soon as possible!
           </p>
         </div>
-        <form className='flex flex-col w-full gap-3 justify-between' onSubmit={handleSubmit}>
+        <form className='flex flex-col w-full gap-3 justify-between' onSubmit={handleSubmit} data-netlify='true'>
           <div className='flex flex-col gap-1'>
             <label className='text-sm sm:text-lg md:text-xl'>Your Name</label>
             <input

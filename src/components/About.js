@@ -29,7 +29,7 @@ const About = () => {
           <a className='font-semibold hover:underline' href='https://java-programming.mooc.fi/' target='_blank' rel='noopener noreferrer'>Java Programming MOOC</a>.
           Towards the end of 2021, I started studying full-time and took up University of Helsinki&apos;s course on modern web development:&nbsp;
           <a className='font-semibold hover:underline' href='https://fullstackopen.com/en/' target='_blank' rel='noopener noreferrer'>Full Stack Open</a>,
-           where I learned my current skills in JavaScript technologies.
+           where I learned my current skills in JavaScript and other technologies, particularly React, Express, and MongoDB.
         </p>
       </div>
     </section>

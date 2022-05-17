@@ -1,6 +1,6 @@
 # Welcome to my portfolio page!
 
-You can visit my page [here](https://frankielacson.netlify.app/).
+You can visit my page [here](https://frankielacson.com/).
 
 ## Built With
 

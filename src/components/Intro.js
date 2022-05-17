@@ -1,11 +1,17 @@
 import React from 'react'
 
-import { FaArrowAltCircleDown } from 'react-icons/fa'
-
 const Intro = () => {
-  const arrowClick = () => {
+  const scrollToAbout = () => {
     window.scroll({
       top: window.innerHeight,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+
+  const scrollToContact = () => {
+    window.scroll({
+      top: window.innerHeight * 4,
       left: 0,
       behavior: 'smooth'
     })
@@ -17,15 +23,20 @@ const Intro = () => {
         <h1 className='opacity-0 animate-[fadeIn_1s_ease-in-out_0s_forwards] text-3xl font-bold tracking-tight text-blue-600 sm:text-5xl md:text-7xl'>
           Hi, I&apos;m Frankie.
         </h1>
-        <h2 className='opacity-0 animate-[fadeIn_1s_ease-in-out_1s_forwards] text-xl text-blue-900 sm:text-3xl md:text-5xl'>
+        <h2 className='opacity-0 animate-[fadeIn_1250ms_ease-in-out_1s_forwards] text-xl text-blue-900 sm:text-3xl md:text-5xl'>
           I can make your websites work!
         </h2>
-        <p className='opacity-0 animate-[fadeIn_1s_ease-in-out_2250ms_forwards] text-sm text-blue-900 sm:text-lg md:text-3xl'>
+        <p className='opacity-0 animate-[fadeIn_1s_ease-in-out_2250ms_forwards] text-sm text-blue-900 sm:text-xl md:text-3xl'>
           <span className='italic'>Most</span> of the time.
         </p>
-        <button className='opacity-0 animate-[fadeIn_1s_ease-in-out_3s_forwards] mt-10 mx-auto h-6 w-6' onClick={arrowClick}>
-          <FaArrowAltCircleDown id='downArrow' className='h-full w-full animate-bounce fill-blue-900 hover:fill-blue-600' />
-        </button>
+        <div className='flex flex-col justify-center mt-10 gap-1 items-center sm:flex-row sm:gap-3'>
+          <button className='opacity-0 animate-[fadeIn_1s_ease-in-out_3s_forwards] px-4 py-2 rounded-xl bg-blue-900 font-semibold text-slate-100 text-sm sm:text-lg hover:bg-opacity-90' onClick={scrollToAbout}>
+            Learn More
+          </button>
+          <button className='opacity-0 animate-[fadeIn_1s_ease-in-out_3500ms_forwards] px-4 py-2 rounded-xl bg-slate-900 font-semibold text-slate-100 text-sm sm:text-lg hover:bg-opacity-90' onClick={scrollToContact}>
+            Contact Me
+          </button>
+        </div>
       </div>
     </section>
   )

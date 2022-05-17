@@ -23,7 +23,7 @@ const Projects = () => {
           image={TheGrandExchangeImg}
           description='Buy and sell products with others in this e-commerce website.'
           languages={{ node: true, react: true, express: true, mongo: true }}
-          demoLink='https://the-grand-exchange.netlify.app/'
+          demoLink='https://the-grand-exchange.vercel.app/'
           codeLink='https://www.github.com/flcsn/the-grand-exchange'
         />
         <ProjectItem
@@ -31,7 +31,7 @@ const Projects = () => {
           image={WhatsForDinnerImg}
           description='Look for meal suggestions based on selected ingredients and tags. Powered by the Tasty.co API.'
           languages={{ node: true, react: true }}
-          demoLink='https://what-s-for-dinner.netlify.app/'
+          demoLink='https://what-s-for-dinner.vercel.app/'
           codeLink='https://github.com/flcsn/whats-for-dinner'
         />
         <ProjectItem
@@ -39,7 +39,7 @@ const Projects = () => {
           image={YetAnotherTodoListImg}
           description='Yet another to-do list project that every aspiring web developer must create.'
           languages={{ node: true, react: true }}
-          demoLink='https://yatdl.netlify.app/'
+          demoLink='https://yatdl.vercel.app/'
           codeLink='https://github.com/flcsn/yet-another-todo-list'
         />
       </div>

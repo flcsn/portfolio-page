@@ -15,6 +15,10 @@ const Projects = () => {
         <p className='text-blue-900 text-sm sm:text-lg md:text-xl'>
           Displayed below are my most recent solo projects in reverse-order:
           A simple to-do list, a frontend application utilizing a 3rd-party API, and a fully functional e-commerce website.
+          My GitHub profile can be found&nbsp;
+          <a className='font-semibold hover:underline' href='https://www.github.com/flcsn' target='_blank' rel='noopener noreferrer'>
+            here
+          </a>.
         </p>
       </div>
       <div name='projects-container' className='flex gap-10 max-w-full mx-auto p-3 overflow-x-auto'>

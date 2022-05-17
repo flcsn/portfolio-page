@@ -4,9 +4,9 @@ import FrankieLacsonResume from '../assets/FrankieLacsonResume.pdf'
 const About = () => {
   return (
     <section className='flex flex-col bg-blue-900 p-3 sm:p-5 md:p-9 min-w-screen min-h-screen'>
-      <div className='flex-grow max-w-screen-lg h-full m-auto'>
-        <h2 className='mb-1 md:mb-5 text-xl font-semibold tracking-tight text-slate-200 sm:text-3xl md:text-5xl'>About</h2>
-        <p className='text-sm text-slate-200 tracking-wide font-light sm:text-lg md:text-xl md:leading-normal'>
+      <div className='flex-grow max-w-screen-xl h-full m-auto'>
+        <h2 className='mb-1 md:mb-5 text-xl font-semibold tracking-tight text-slate-100 sm:text-3xl md:text-5xl'>About</h2>
+        <p className='text-xs text-slate-300 tracking-wide leading-loose font-light sm:text-base sm:leading-loose md:text-xl md:leading-loose lg:leading-loose'>
           I am a former HR professional who recently decided to transition to a career in web development.
           I love learning new technologies that help me come up with cleaner and more efficient solutions to practical problems,
           but in general, I just enjoy creating applications that work.
@@ -14,14 +14,14 @@ const About = () => {
           <a className='font-semibold hover:underline' href={FrankieLacsonResume} target='_blank' rel='noopener noreferrer'>here (PDF)</a>.
         </p>
         <br/>
-        <p className='text-sm text-slate-200 tracking-wide font-light sm:text-lg md:text-xl md:leading-normal'>
+        <p className='text-xs text-slate-300 tracking-wide leading-loose font-light sm:text-base sm:leading-loose md:text-xl md:leading-loose lg:leading-loose'>
           When I am not working on a project, I can be found bashing my head against the wall in Elden Ring,
           or trying out a new Fire Emblem game while waiting for the next major FFXIV update.
         </p>
       </div>
-      <div className='flex-grow max-w-screen-lg h-full m-auto'>
-        <h2 className='mb-1 md:mb-5 text-xl font-semibold tracking-tight text-slate-200 sm:text-3xl md:text-5xl'>A Brief History</h2>
-        <p className='text-sm text-slate-200 tracking-wide font-light sm:text-lg md:text-xl md:leading-normal'>
+      <div className='flex-grow max-w-screen-xl h-full m-auto'>
+        <h2 className='mb-1 md:mb-5 text-xl font-semibold tracking-tight text-slate-100 sm:text-3xl md:text-5xl'>A Brief History</h2>
+        <p className='text-xs text-slate-300 tracking-wide leading-loose font-light sm:text-base sm:leading-loose md:text-xl md:leading-loose lg:leading-loose'>
           I started my journey into programming with Harvard&apos;s&nbsp;
           <a className='font-semibold hover:underline' href='https://cs50.harvard.edu' target='_blank' rel='noopener noreferrer'>Intro to Computer Science (CS50)</a>,
           studying part-time back in October 2020.

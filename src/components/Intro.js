@@ -20,7 +20,9 @@ const Intro = () => {
         <h2 className='opacity-0 animate-[fadeIn_1s_ease-in-out_1s_forwards] text-xl text-blue-900 sm:text-3xl md:text-5xl'>
           I can make your websites work!
         </h2>
-        <p className='opacity-0 animate-[fadeIn_1s_ease-in-out_2250ms_forwards] text-sm text-blue-900 sm:text-lg md:text-3xl'>Sometimes.</p>
+        <p className='opacity-0 animate-[fadeIn_1s_ease-in-out_2250ms_forwards] text-sm text-blue-900 sm:text-lg md:text-3xl'>
+          <span className='italic'>Most</span> of the time.
+        </p>
         <button className='opacity-0 animate-[fadeIn_1s_ease-in-out_3s_forwards] mt-10 mx-auto h-6 w-6' onClick={arrowClick}>
           <FaArrowAltCircleDown id='downArrow' className='h-full w-full animate-bounce fill-blue-900 hover:fill-blue-600' />
         </button>
